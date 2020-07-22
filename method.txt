@@ -1,0 +1,9 @@
+For every number less than n :
+
+Check if it is a palindrome in base 10
+If yes, then convert it into base k
+Check if it is palindrom in base k
+If yes, then add it in sum.
+for number as large as 1000000, it checks for every number.
+If k = 2, then a palindrome in base 2 can only be odd number, 
+which might reduce the comparisons to 1000000 / 2 = 500000 
